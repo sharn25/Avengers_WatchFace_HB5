@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage x="0" filter_color="0" res_dir_id="A014" y="0" type="static" data_type="DATA_BACKGROUND" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 11 - BG" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage x="3" filter_color="0" res_dir_id="A013" y="180" type="static" data_type="DATA_HOUR_HIGH" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 10 - Hour_High" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage x="28" filter_color="0" res_dir_id="A012" y="180" type="static" data_type="DATA_HOUR_LOW" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 9 - Hour_Low" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage x="69" filter_color="0" res_dir_id="A011" y="180" type="static" data_type="DATA_MINITE_HIGH" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 8 - Mintue_High" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage x="94" filter_color="0" res_dir_id="A010" y="180" type="static" data_type="DATA_MINITE_LOW" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 7 - Mintue_Low" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="40" filter_color="0" mutil_widget_count="3" data_type1="DATA_SEPAR" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A007" y="225" type="static" data_type="DATA_MONTH" data_type2="DATA_DATE" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 6 - Date" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="40" filter_color="0" mutil_widget_count="3" data_type1="DATA_MONTH" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A008" y="225" type="static" data_type="DATA_SEPAR" data_type2="DATA_DATE" align="DIGIT_ALIGN_CENTER_LEFT" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="40" filter_color="0" mutil_widget_count="3" data_type1="DATA_MONTH" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A009" y="225" type="static" data_type="DATA_DATE" data_type2="DATA_SEPAR" align="DIGIT_ALIGN_CENTER_LEFT" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage x="3" filter_color="0" support_languages="en" res_dir_id="A006" y="225" type="static" data_type="DATA_WEEK" default_language="en" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 5 - Week" single_language_img_num="7"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage x="99" filter_color="0" res_dir_id="A005" y="227" type="static" data_type="DATA_AMPM" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 4 - AM_PM" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage x="98" filter_color="0" res_dir_id="A004" y="2" type="static" data_type="DATA_BATTERY" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 3 - Battery_Icon" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage x="66" filter_color="0" res_dir_id="A003" y="3" type="static" data_type="DATA_BATTERYNUM" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" label="layer 2 - Battery" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="2" filter_color="0" mutil_widget_count="3" data_type1="DATA_UNREADMSG_STATE" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A000" y="2" type="static" data_type="DATA_BLUETOOTH_STATUS" data_type2="DATA_DISTURB" align="DIGIT_ALIGN_CENTER_LEFT" label="layer 1 - BT_DO_MSG" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="2" filter_color="0" mutil_widget_count="3" data_type1="DATA_BLUETOOTH_STATUS" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A001" y="2" type="static" data_type="DATA_UNREADMSG_STATE" data_type2="DATA_DISTURB" align="DIGIT_ALIGN_CENTER_LEFT" offset_distance_y="0"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget x="2" filter_color="0" mutil_widget_count="3" data_type1="DATA_BLUETOOTH_STATUS" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A002" y="2" type="static" data_type="DATA_DISTURB" data_type2="DATA_UNREADMSG_STATE" align="DIGIT_ALIGN_CENTER_LEFT" offset_distance_y="0"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
